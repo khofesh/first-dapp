@@ -4,9 +4,9 @@ pragma solidity ^0.7.6;
 import "hardhat/console.sol";
 
 contract Token {
-    string public name = "Fahmi Ahmad";
-    string public symbol = "FA";
-    uint256 public totalSupply = 10000;
+    string public name = "Babi Ngepet";
+    string public symbol = "NGEPET";
+    uint256 public totalSupply = 1000000;
     mapping(address => uint256) balances;
 
     constructor() {
